@@ -1,0 +1,39 @@
+.sell_section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    background-color: black;
+    background-image: url('../../../public/imgs/eBook.png');
+    background-position: left bottom;
+    background-size: 65vh;
+    background-repeat: no-repeat;
+    height: 92.5vh;
+    padding: 12.5vh 0px 0px 20px;
+}
+
+.text_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+
+    h1 {
+        font-size: 1.6em;
+    }
+
+    h3 {
+        width: 300px;
+        font-size: 1.2em;
+    }
+
+    button {
+        background-color: white;
+        color: black;
+        width: 250px;
+        margin-top: 10px;
+        box-shadow: 4px 4px 8px black;
+    }
+}
